@@ -87,16 +87,25 @@
 
 
 
-<meta name="description" content="Android">
+<meta name="description" content="导语：
+Android数据绑定框架DataBinding已经问世一年多了，之前写过DataBinding的Demo并应用于公司的部分项目中，实际效果不错，今天简单简单讨论一下使用数据绑定框架DataBinding构建Android MVVM应用程序。
+
+DataBinding你可以通过以下配置使用数据绑定框架：123456&amp;lt;android &amp;#123;     ... ... ...">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何构建Android MVVM应用程序">
 <meta property="og:url" content="http://yoursite.com/2017/03/10/如何构建Android-MVVM应用程序/index.html">
-<meta property="og:site_name" content="白茶清欢">
-<meta property="og:description" content="Android">
-<meta property="og:updated_time" content="2017-03-10T01:58:40.150Z">
+<meta property="og:site_name" content="安德里亚">
+<meta property="og:description" content="导语：
+Android数据绑定框架DataBinding已经问世一年多了，之前写过DataBinding的Demo并应用于公司的部分项目中，实际效果不错，今天简单简单讨论一下使用数据绑定框架DataBinding构建Android MVVM应用程序。
+
+DataBinding你可以通过以下配置使用数据绑定框架：123456&amp;lt;android &amp;#123;     ... ... ...">
+<meta property="og:updated_time" content="2017-03-10T07:55:05.863Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何构建Android MVVM应用程序">
-<meta name="twitter:description" content="Android">
+<meta name="twitter:description" content="导语：
+Android数据绑定框架DataBinding已经问世一年多了，之前写过DataBinding的Demo并应用于公司的部分项目中，实际效果不错，今天简单简单讨论一下使用数据绑定框架DataBinding构建Android MVVM应用程序。
+
+DataBinding你可以通过以下配置使用数据绑定框架：123456&amp;lt;android &amp;#123;     ... ... ...">
 
 
 
@@ -130,7 +139,7 @@
 
 
 
-  <title> 如何构建Android MVVM应用程序 | 白茶清欢 </title>
+  <title> 如何构建Android MVVM应用程序 | 安德里亚 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -166,12 +175,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">白茶清欢</span>
+        <span class="site-title">安德里亚</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">人间有味是清欢</p>
+        <p class="site-subtitle">不为无益之事，何以遣有涯之生？</p>
       
   </div>
 
@@ -252,13 +261,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/03/10/如何构建Android-MVVM应用程序/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Clownjee">
+      <meta itemprop="name" content="GhizzoniAndrea">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="白茶清欢">
+      <meta itemprop="name" content="安德里亚">
     </span>
 
     
@@ -321,7 +330,11 @@
       
 
       
-        
+        <h4 id="导语："><a href="#导语：" class="headerlink" title="导语："></a>导语：</h4><blockquote>
+<p>Android数据绑定框架DataBinding已经问世一年多了，之前写过DataBinding的Demo并应用于公司的部分项目中，实际效果不错，今天简单简单讨论一下使用数据绑定框架DataBinding构建Android MVVM应用程序。</p>
+</blockquote>
+<h2 id="DataBinding"><a href="#DataBinding" class="headerlink" title="DataBinding"></a>DataBinding</h2><p>你可以通过以下配置使用数据绑定框架：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&lt;android &#123; </div><div class="line">    ... ... ...</div><div class="line">    dataBinding &#123;</div><div class="line">        enabled = <span class="keyword">true</span></div><div class="line">    &#125;</div><div class="line">&#125;&gt;</div></pre></td></tr></table></figure></p>
+
       
     </div>
 
@@ -410,13 +423,22 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
-               alt="Clownjee" />
-          <p class="site-author-name" itemprop="name">Clownjee</p>
+               alt="GhizzoniAndrea" />
+          <p class="site-author-name" itemprop="name">GhizzoniAndrea</p>
            
               <p class="site-description motion-element" itemprop="description">Android</p>
           
@@ -456,6 +478,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#导语："><span class="nav-number">1.</span> <span class="nav-text">导语：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DataBinding"><span class="nav-number"></span> <span class="nav-text">DataBinding</span></a></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -476,7 +514,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Clownjee</span>
+  <span class="author" itemprop="copyrightHolder">GhizzoniAndrea</span>
 </div>
 
 
