@@ -87,16 +87,16 @@
 
 
 
-<meta name="description" content="1.时间节点的控制尤为重要，一定要严格按照规划执行，宁可前紧后松，也不要前松后紧。2.及早发现问题、抛出问题、解决问题，总的说来就是对项目进度的把控。3.兵马未动粮草先行，及早对项目中有可能遇到的问题进行预研，特别是之前未见过的功能等。4.项目需求评审时一定要对细节死磕，不然失之毫厘谬以千里，无论你付出了多少，到头来还是推倒重做，还延误了上线。5.一定要在公司内部团队内部建立起规范来，大家按照规范">
+<meta name="description" content="Android">
 <meta property="og:type" content="article">
-<meta property="og:title" content="某移动端Android项目经验小结">
-<meta property="og:url" content="http://yoursite.com/2017/04/06/某移动端Android项目经验小结/index.html">
+<meta property="og:title" content="android:windowSoftInputMode属性详解">
+<meta property="og:url" content="http://yoursite.com/2017/04/07/android-windowSoftInputMode属性详解/index.html">
 <meta property="og:site_name" content="安德里亚">
-<meta property="og:description" content="1.时间节点的控制尤为重要，一定要严格按照规划执行，宁可前紧后松，也不要前松后紧。2.及早发现问题、抛出问题、解决问题，总的说来就是对项目进度的把控。3.兵马未动粮草先行，及早对项目中有可能遇到的问题进行预研，特别是之前未见过的功能等。4.项目需求评审时一定要对细节死磕，不然失之毫厘谬以千里，无论你付出了多少，到头来还是推倒重做，还延误了上线。5.一定要在公司内部团队内部建立起规范来，大家按照规范">
-<meta property="og:updated_time" content="2017-04-06T05:54:33.627Z">
+<meta property="og:description" content="Android">
+<meta property="og:updated_time" content="2017-04-07T05:32:43.695Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="某移动端Android项目经验小结">
-<meta name="twitter:description" content="1.时间节点的控制尤为重要，一定要严格按照规划执行，宁可前紧后松，也不要前松后紧。2.及早发现问题、抛出问题、解决问题，总的说来就是对项目进度的把控。3.兵马未动粮草先行，及早对项目中有可能遇到的问题进行预研，特别是之前未见过的功能等。4.项目需求评审时一定要对细节死磕，不然失之毫厘谬以千里，无论你付出了多少，到头来还是推倒重做，还延误了上线。5.一定要在公司内部团队内部建立起规范来，大家按照规范">
+<meta name="twitter:title" content="android:windowSoftInputMode属性详解">
+<meta name="twitter:description" content="Android">
 
 
 
@@ -124,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/04/06/某移动端Android项目经验小结/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/04/07/android-windowSoftInputMode属性详解/"/>
 
 
 
 
 
-  <title> 某移动端Android项目经验小结 | 安德里亚 </title>
+  <title> android:windowSoftInputMode属性详解 | 安德里亚 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -249,7 +249,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/06/某移动端Android项目经验小结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/07/android-windowSoftInputMode属性详解/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="GhizzoniAndrea">
@@ -270,7 +270,7 @@
             
             
               
-                某移动端Android项目经验小结
+                android:windowSoftInputMode属性详解
               
             
           </h1>
@@ -285,8 +285,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-06T13:26:30+08:00">
-                2017-04-06
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-07T13:32:43+08:00">
+                2017-04-07
               </time>
             
 
@@ -321,8 +321,7 @@
       
 
       
-        <p>1.时间节点的控制尤为重要，一定要严格按照规划执行，宁可前紧后松，也不要前松后紧。<br>2.及早发现问题、抛出问题、解决问题，总的说来就是对项目进度的把控。<br>3.兵马未动粮草先行，及早对项目中有可能遇到的问题进行预研，特别是之前未见过的功能等。<br>4.项目需求评审时一定要对细节死磕，不然失之毫厘谬以千里，无论你付出了多少，到头来还是推倒重做，还延误了上线。<br>5.一定要在公司内部团队内部建立起规范来，大家按照规范的流程走，奖惩罚过，都有依据。<br>6.还是说到进度的把控上来，在项目开始之时，一定要明确一个目标，整个项目组的目标、工作重心，合理的规划，到期准时或提前上线交付，逾期延迟，没有理由，没有原因。<br>7.说的是一辈子！差一年，一个月，一天，一个时辰，都不算一辈子！——《霸王别姬》这句话大家自己领会！<br>8.产品一定要站在用户的角度出原型，开发一定要站在用户的角度写代码。<br>9.任何功能一定要优化优化再优化！<br>10.及时备份存档文件，无论是产品、设计、开发等，特别是开发，一定要开分支。<br>11.做产品一定要做傻瓜式的，上手一定要低难度，或者做到零难度，符合大众的使用习惯，一款需要学习成本的产品，都称不上是一款好产品，新产品培养用户习惯，类似功能迎合用户习惯，一个流程，越少步骤越好。<br>12.产品功能的调整，一定要有大局观，会不会影响到其他功能。<br>13.细节决定成败！细节决定成败！细节决定成败！重要的事情，三遍不嫌多。<br>14.各个岗位在衔接工作的时候，一定要认真负责，因你一个人的疏忽，影响的是整个项目组。<br>15.要么小而精，要么大而全，在最开始的时候就要定好方向。<br>16.不要做重复的工作，一定要有全局观。</p>
-
+        
       
     </div>
 
@@ -352,8 +351,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/04/05/Android-Studio修改项目包名/" rel="next" title="Android Studio修改项目包名">
-                <i class="fa fa-chevron-left"></i> Android Studio修改项目包名
+              <a href="/2017/04/07/出发是为了更好的归来/" rel="next" title="出发是为了更好的归来">
+                <i class="fa fa-chevron-left"></i> 出发是为了更好的归来
               </a>
             
           </div>
@@ -361,10 +360,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/04/06/如何让LinearLayout也有类似Button的点击效果？/" rel="prev" title="如何让LinearLayout也有类似Button的点击效果？">
-                如何让LinearLayout也有类似Button的点击效果？ <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
