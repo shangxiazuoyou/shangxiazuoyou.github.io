@@ -87,16 +87,19 @@
 
 
 
-<meta name="description" content="Android">
+<meta name="description" content="Activity主窗口与软键盘的交互模式，可以用来避免输入法面板遮挡问题，这是Android 1.5后的一个新特性。这个属性能影响两件事情：1.当有焦点产生时，软键盘是隐藏还是显示2.是否减少活动主窗口大小以便腾出空间显示软键盘它的设置必须是下面列表中的一个值，一个”state…”值加一个”adjust…”值的组合。在任一组设置多个值，各个值之间用|分开。
+在这设置的值(除”stateUnspec">
 <meta property="og:type" content="article">
 <meta property="og:title" content="android:windowSoftInputMode属性详解">
 <meta property="og:url" content="http://yoursite.com/2017/04/07/android-windowSoftInputMode属性详解/index.html">
 <meta property="og:site_name" content="安德里亚">
-<meta property="og:description" content="Android">
-<meta property="og:updated_time" content="2017-04-07T05:32:43.695Z">
+<meta property="og:description" content="Activity主窗口与软键盘的交互模式，可以用来避免输入法面板遮挡问题，这是Android 1.5后的一个新特性。这个属性能影响两件事情：1.当有焦点产生时，软键盘是隐藏还是显示2.是否减少活动主窗口大小以便腾出空间显示软键盘它的设置必须是下面列表中的一个值，一个”state…”值加一个”adjust…”值的组合。在任一组设置多个值，各个值之间用|分开。
+在这设置的值(除”stateUnspec">
+<meta property="og:updated_time" content="2017-04-07T05:38:07.225Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="android:windowSoftInputMode属性详解">
-<meta name="twitter:description" content="Android">
+<meta name="twitter:description" content="Activity主窗口与软键盘的交互模式，可以用来避免输入法面板遮挡问题，这是Android 1.5后的一个新特性。这个属性能影响两件事情：1.当有焦点产生时，软键盘是隐藏还是显示2.是否减少活动主窗口大小以便腾出空间显示软键盘它的设置必须是下面列表中的一个值，一个”state…”值加一个”adjust…”值的组合。在任一组设置多个值，各个值之间用|分开。
+在这设置的值(除”stateUnspec">
 
 
 
@@ -321,7 +324,10 @@
       
 
       
-        
+        <p>Activity主窗口与软键盘的交互模式，可以用来避免输入法面板遮挡问题，这是Android 1.5后的一个新特性。<br>这个属性能影响两件事情：<br>1.当有焦点产生时，软键盘是隐藏还是显示<br>2.是否减少活动主窗口大小以便腾出空间显示软键盘<br>它的设置必须是下面列表中的一个值，一个”state…”值加一个”adjust…”值的组合。在任一组设置多个值，各个值之间用|分开。</p>
+<p>在这设置的值(除”stateUnspecified”和”adjustUnspecified”以外)将覆盖在主题中设置的值</p>
+<p>各值的含义：<br>stateUnspecified：软键盘的状态并没有指定，系统将选择一个合适的状态或依赖于主题的设置<br>stateUnchanged：当这个activity出现时，软键盘将一直保持在上一个activity里的状态，无论是隐藏还是显示<br>stateHidden：用户选择activity时，软键盘总是被隐藏<br>stateAlwaysHidden：当该Activity主窗口获取焦点时，软键盘也总是被隐藏的<br>stateVisible：软键盘通常是可见的<br>stateAlwaysVisible：用户选择activity时，软键盘总是显示的状态<br>adjustUnspecified：默认设置，通常由系统自行决定是隐藏还是显示<br>adjustResize：该Activity总是调整屏幕的大小以便留出软键盘的空间<br>adjustPan：当前窗口的内容将自动移动以便当前焦点从不被键盘覆盖和用户能总是看到输入内容的部分</p>
+
       
     </div>
 
