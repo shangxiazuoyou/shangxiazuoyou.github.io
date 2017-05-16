@@ -250,6 +250,125 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/08/论单例模式的优缺点/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="GhizzoniAndrea">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="安德里亚">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/05/08/论单例模式的优缺点/" itemprop="url">
+                  论单例模式的优缺点
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-08T15:09:39+08:00">
+                2017-05-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h3><p>1、提供了全局唯一实例的访问。<br>2、由于单例调用被初始化后，整个应用生命周期只存在一个对象，因此可以节约一定的资源，不用重复创建，对于一些需要频繁创建和销毁的对象，使用单例设计模式无疑可以节省资源，提高应用的性能。<br>3、允许可变数目的实例。</p>
+<h3 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h3><p>1、由于单例设计模式没有抽象层，也就是说想要扩展单例类很困难，基本上平常也只是用作工具类来使用。<br>2、单例类的职责过重，一定程度上违背了“单一职责原则”。<br>3、因为单例是一种设计模式，也会有人过度使用单例而带来一些负面的问题，如实例化的单例对象在长时间不被使用，应用就会认为是垃圾而被回收，有可能导致对象的状态丢失，又如为了节省资源而将数据库连接池设计成单例模式，有可能导致共享连接池对象过多而出现溢出的问题。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/24/PHP获取MySQL新增记录ID值的3种方法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1308,131 +1427,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/07/Android-Activity的四种启动模式/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="GhizzoniAndrea">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="安德里亚">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/04/07/Android-Activity的四种启动模式/" itemprop="url">
-                  Android Activity的四种启动模式
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-07T10:42:13+08:00">
-                2017-04-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>最近刚好手头上没有任务，于是就来总结一下Android的知识点，温故而知新，可以为师矣嘛！虽然都比较基础，但有句老话说——好记性不如烂笔头，往往是基础的知识，得不到重视，更容易忘记！</p>
-<h6 id="设置Activity的启动模式"><a href="#设置Activity的启动模式" class="headerlink" title="设置Activity的启动模式"></a>设置Activity的启动模式</h6><p>有两种方法来设置Activity的启动模式：<br>1.在AndroidManifest.xml的activity元素中设置launchMode属性，该方式为最常用方式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;activity</div><div class="line">	...</div><div class="line">	android:launchMode=&quot;standard&quot;/&gt;</div></pre></td></tr></table></figure></p>
-<p>2.使用Java代码设置：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Intent intent = new Intent(MainActivity.this,SecondActivity.class);</div><div class="line">intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);</div><div class="line">startActivity(intent);</div></pre></td></tr></table></figure></p>
-<p>以上两种设置启动模式的方法还是有区别的，按照Android开发的惯例，Java代码的优先级肯定是高于xml代码的，如果两者同时存在的话，Java代码生效。另外在AndroidManifest.xml中无法设置FLAG_ACTIVITY_CLEAR_TOP标识，在Java代码中无法指定singleInstance模式。</p>
-<h5 id="四种启动模式"><a href="#四种启动模式" class="headerlink" title="四种启动模式"></a>四种启动模式</h5><h6 id="standard：标准模式"><a href="#standard：标准模式" class="headerlink" title="standard：标准模式"></a>standard：标准模式</h6><p>系统默认的模式，如果你没有设置启动模式的话默认这个模式。标准模式下的特点是每启动一个Activity都会重新创建一个新的实例，不管这个实例是否已经存在。被创建的Activity实例的生命周期正常调用，也就是onCreate、onStart、onResume都会被调用。<br>在这种模式下，当我们多次启动同一个Activity的时候，系统就会创建多个实例并把他们一一放到任务栈中。任务栈是一种后进先出的结构，每当我们按一下返回键的时候，就会有一个Activity出栈。</p>
-<h6 id="singleTop：栈顶复用模式"><a href="#singleTop：栈顶复用模式" class="headerlink" title="singleTop：栈顶复用模式"></a>singleTop：栈顶复用模式</h6><p>这种模式下，待启动的Activity如果位于任务栈的栈顶，那么就不会新建这个Activity的实例了。同时它的onNewIntent方法会被调用，我们可以在此方法取出当前请求信息。要注意的是，这个Activity的onCreate和onStart方法并不会被系统调用，因为它并没有发生改变。另外一种情况是，当这个Activity并不在任务栈的栈顶，这样的话新的Activity就会被以新实例的方式创建，onCreate、onStart、onResume都会被调用。</p>
-<h6 id="singleTask：栈内复用模式"><a href="#singleTask：栈内复用模式" class="headerlink" title="singleTask：栈内复用模式"></a>singleTask：栈内复用模式</h6><p>这种模式下，相当于单例模式。单例模式相信大家都懂，单例模式就是要确保某个类只有一个实例，而且自行实例化并向整个系统提供这个实例。Activity被创建出来，肯定需要一个任务栈，singleTask模式下启动此Activity首先需要判断有没有此Activity想要的任务栈，如果不存在就创建一个任务栈，并将此Activity压到栈中。如果任务栈已经存在，并且任务栈中也存在此Activity的实例，系统就会将此Activity调到栈顶，显示出来。也就是说，待启动的Activity在任务栈中如果已经存在，无论你启动多少次这个Activity都不会创建新的实例了，此时也会只调用onNewIntent方法。</p>
-<h6 id="singleInstance：单实例模式"><a href="#singleInstance：单实例模式" class="headerlink" title="singleInstance：单实例模式"></a>singleInstance：单实例模式</h6><p>这个模式可以理解为singleTask模式的加强版。此模式除了拥有singleTask模式所以的特性外，还有一点就是此模式的Activity只能单独的存在于一个任务栈中，由于栈内复用的特性，所以后续的请求均不会创建新的Activity实例了，除非这个任务栈被系统销毁了。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1482,7 +1476,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">35</span>
+                <span class="site-state-item-count">36</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
